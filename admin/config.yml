@@ -1,12 +1,11 @@
 backend:
-  name: github
-  repo: BRUKERNAVN/REPONAVN   # <-- bytt ut med ditt GitHub-brukernavn og repo-navn
-  branch: main                # eller "master" hvis det er det du bruker
+  name: git-gateway
+  branch: master   # du bruker master, ikke main
 
 local_backend: true
 
-media_folder: "static/uploads"   # hvor opplastede bilder lagres i repoet
-public_folder: "/static/uploads" # URL-sti til bildene på nettsiden
+media_folder: "static/uploads"
+public_folder: "/static/uploads"
 
 site_url: "https://nyearendalsdramatiskeselskab.no"
 
