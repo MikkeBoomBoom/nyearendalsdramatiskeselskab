@@ -34,3 +34,4 @@ collections:
           - { label: "Gunnar-bilde", name: "gunnar_image", widget: "image", required: false }
           - { label: "Gunnar – sitat", name: "gunnar_quote", widget: "text" }
           - { label: "Gunnar – brødtekst", name: "gunnar_body", widget: "markdown" }
+
