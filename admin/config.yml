@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: BRUKERNAVN/REPONAVN   # <-- bytt ut med ditt GitHub-brukernavn og repo-navn
+  branch: main                # eller "master" hvis det er det du bruker
+
+local_backend: true
+
+media_folder: "static/uploads"   # hvor opplastede bilder lagres i repoet
+public_folder: "/static/uploads" # URL-sti til bildene på nettsiden
+
+site_url: "https://nyearendalsdramatiskeselskab.no"
+
+collections:
+  - name: "forside"
+    label: "Forside"
+    files:
+      - file: "content/forside.yml"
+        label: "Forsideinnhold"
+        name: "forside"
+        fields:
+          - { label: "Overskrift (hero)", name: "hero_title", widget: "string" }
+          - { label: "Ingress under overskrift", name: "hero_intro", widget: "text" }
+
+          - { label: "Plakat-bilde", name: "poster_image", widget: "image", required: false }
+          - { label: "Lenke til billetter", name: "ticket_url", widget: "string", required: false }
+
+          - { label: "Lenke til plakat (liggende)", name: "poster_landscape_url", widget: "string", required: false }
+          - { label: "Lenke til plakat (stående)", name: "poster_portrait_url", widget: "string", required: false }
+
+          - { label: "Overskrift – Om forestillingen", name: "about_title", widget: "string", default: "Om forestillingen" }
+          - { label: "Tekst – Om forestillingen", name: "about_body", widget: "markdown" }
+
+          - { label: "Overskrift – Gunnars betraktninger", name: "gunnar_title", widget: "string", default: "Gunnars betraktninger" }
+          - { label: "Gunnar – rollelinje", name: "gunnar_role_line", widget: "string" }
+          - { label: "Gunnar-bilde", name: "gunnar_image", widget: "image", required: false }
+          - { label: "Gunnar – sitat", name: "gunnar_quote", widget: "text" }
+          - { label: "Gunnar – brødtekst", name: "gunnar_body", widget: "markdown" }

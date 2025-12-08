@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nye Arendals Dramatiske Selskab — Offisiell Nettside</title>
+  <meta name="description" content="Det lille amatørselskapet med store følelser og bevisst tacky smak. Forestilling i Kilden neste år!" />
+  <style>
+    :root{
+      --bg:#f3b3bd;--text:#301f1a;--muted:#6a4f46;--border:rgba(48,31,26,.2);--glass:rgba(255,255,255,.18)
+    }
+    body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 system-ui,sans-serif;animation:fadein 1s ease}
+    @keyframes fadein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    .wrap{max-width:1200px;margin:0 auto;padding:20px}
+    .hero{text-align:left;padding:60px 20px;animation:fadein 1.2s ease;display:grid;gap:24px;align-items:start}
+    @media(min-width:900px){.hero{grid-template-columns:2fr 1fr;}}
+    .poster{border:2px dashed var(--border);border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.2);}
+    .poster img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;margin-inline:auto}
+    .insta-embed{max-width:540px;margin:0 auto;}
+    .poster-caption{text-align:center;margin-top:8px;font-size:14px;color:var(--muted)}
+    .nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.55);backdrop-filter:saturate(130%) blur(6px);border-bottom:1px solid var(--border)}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800}
+    .brand img{height:48px;width:auto;object-fit:contain}
+    .menu{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+    .menu a{padding:8px 12px;border:1px dashed var(--border);border-radius:999px;text-decoration:none;color:var(--text);background:rgba(255,255,255,.6)}
+    .buy{background:linear-gradient(135deg,#ffb29f,#ff7e66);font-weight:800}
+    html{scroll-behavior:smooth}
+    .quote{background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+
+    /* Juster Gunnar-bildet */
+    .gunnar img {max-width: 240px; height: auto; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 6px 20px rgba(0,0,0,.15); object-fit: cover;}
+    .gunnar {display: grid; gap: 18px; align-items: start;}
+    @media (min-width: 860px) {.gunnar {grid-template-columns: 260px 1fr;}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;">
+      <div class="brand">
+        <img src="logo-nads.png" alt="Logo for Nye Arendals Dramatiske Selskab" />
+        <span>Nye Arendals Dramatiske Selskab</span>
+      </div>
+      <nav class="menu">
+        <a href="#hjem">Hjem</a>
+        <a href="#om-forestillingen">Om forestillingen</a>
+        <a href="#medvirkende">Medvirkende</a>
+        <a href="https://www.instagram.com/nyearendalsdramatiskeselskab/" target="_blank">Instagram</a>
+        <a class="buy" href="https://kilden.com/forestilling/fra-krakk-til-kamp/" target="_blank">🎟️ Kjøp billetter</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hjem" class="hero">
+    <div>
+      <h1>FRA KRAKK TIL KAMP!</h1>
+      <p>En musikalsk og humoristisk forestilling om Arendalskrakket – penger, politikk, svindel og svik. Spilles i Kilden teater og konserthus våren 2026.</p>
+      <div class="poster">
+        <picture>
+          <source media="(min-aspect-ratio:4/3)" srcset="krakket-skjerm-liggende.jpg"/>
+          <img src="krakket-1080x1920-story.jpg" alt="Plakat: Fra Krakk til Kamp"/>
+        </picture>
+      </div>
+      <div class="poster-caption">
+        <span>Last ned plakatene:</span>
+        <a class="dl" href="krakket-skjerm-liggende.jpg" download>📥 Liggende</a>
+        <a class="dl" href="krakket-1080x1920-story.jpg" download>📥 Stående</a>
+        · <a class="dl" style="font-weight:800" href="https://kilden.com/forestilling/fra-krakk-til-kamp/" target="_blank">🎟️ Kjøp billetter</a>
+      </div>
+    </div>
+    <div>
+      <h2>Fra Instagram</h2>
+      <div class="insta-embed">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DQtsCETDGtm/" data-instgrm-version="12" style="background:#FFF;border:0;border-radius:12px;box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);margin:1px;min-width:300px;max-width:360px;width:100%;padding:0;"></blockquote>
+        <script async src="https://www.instagram.com/embed.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <section id="omtale" class="section">
+    <div class="wrap">
+      <h2>Om forestillingen</h2>
+      <article class="quote" style="max-width:900px;margin:auto">
+        <p><strong>Fra krakk til kamp</strong> er Kilden Teater og Kristiansand Symfoniorkesters store satsning i 2026 – en musikalsk fortelling om Norgeshistoriens største svindelsak, skapt i samarbeid med Nye Arendals Dramatiske Selskab.</p>
+        <p>Året er 1886. Arendal er landets rikeste by, en blomstrende handelsby med internasjonal innflytelse og tro på framtiden. Men plutselig begynner ryktene å gå: Er Arendal Privatbank konkurs? Panikken sprer seg. I løpet av få dager går byen fra gullalder til krise. Arbeidsledigheten eksploderer, familier mister alt, og tilliten til systemet bryter sammen. I ruinene av sammenbruddet vokser likevel noe nytt – solidaritet, samhold og gnisten som skulle tenne arbeiderbevegelsen og lede til dannelsen av Det Norske Arbeiderparti.</p>
+        <p><em>Fra krakk til kamp</em> tar publikum med på en reise gjennom både tragedie og komedie, hvor historien om Arendalskrakket speiles i vår egen tid. Forestillingen kombinerer satire, humor og alvor, og spør hva som skjer når drømmer om rikdom og ære får oss til å miste blikket for hverandre. Sammen med Kristiansand Symfoniorkester byr selskapet på en storslått, rørende og underholdende teateropplevelse om ambisjon, ansvar og håp.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="om-forestillingen" class="section">
+    <div class="wrap">
+      <h2>Gunnars betraktninger</h2>
+      <div class="gunnar">
+        <figure>
+          <img src="people/gunnar.jpg" alt="Portrett av Gunnar, dramatiker bak Fra Krakk til Kamp">
+          <figcaption>Gunnar · idé og tekst</figcaption>
+        </figure>
+        <article class="quote">
+          <p>«Arendal bærer sine historier som skrog bærer merker etter uvær – du ser dem ikke alltid på avstand, men de sitter i fibrene. <em>Fra Krakk til Kamp</em> er ikke bare Herlofson og tall på et ark; det er rytmen av arbeidshender, pusten i en by som brått får for lite luft. Når veksler danser og dørene smeller igjen, må noen synge for at vi skal huske hvem vi er.»</p>
+          <p>Teateret er for meg ikke et museum, men et speil som dugger når vi står for nær. Vi spiller om fall og ansvar, men også om forsoning – og om motet til å se hverandre i øynene når regnskapet er gjort opp.</p>
+          <p class="sig">– Gunnar</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap" style="text-align:center;font-size:14px;color:var(--muted)">© <span id="year"></span> Nye Arendals Dramatiske Selskab · Laget med glass, glitter og god vilje ✨</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+hero_title: "FRA KRAKK TIL KAMP!"
+hero_intro: "En musikalsk og humoristisk forestilling om Arendalskrakket … (fyll inn teksten du vil bruke)."
+
+poster_image: "/static/uploads/plakat.jpg"
+ticket_url: "https://kilden.com"   # eller den eksakte billettlenken din
+
+poster_landscape_url: "https://.../plakat-liggende.pdf"
+poster_portrait_url: "https://.../plakat-staende.pdf"
+
+about_title: "Om forestillingen"
+about_body: >
+  Her kan du lime inn teksten om forestillingen, i flere avsnitt.
+  Siden feltet er markdown kan du lage linjeskift osv.
+
+gunnar_title: "Gunnars betraktninger"
+gunnar_role_line: "Gunnar · idé og tekst"
+gunnar_image: "/static/uploads/gunnar-portrett.jpg"
+gunnar_quote: >
+  Her legger du inn hovedsitatet fra Gunnar.
+gunnar_body: >
+  Her legger du inn den lengre refleksjonen hans.
+forside.yml
