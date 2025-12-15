@@ -1,8 +1,8 @@
 hero_title: "FRA KRAKK TIL KAMP!"
-hero_intro: "En musikalsk og humoristisk forestilling om Arendalskrakket … (fyll inn teksten du vil bruke)."
+hero_intro: "En musikalsk og humoristisk forestilling om Arendalskrakket, penger, politikk, svindel og svik. Spilles i Kilden teater og konserthus våren 2026..."
 
 poster_image: "/static/uploads/plakat.jpg"
-ticket_url: "https://kilden.com"   # eller den eksakte billettlenken din
+ticket_url: "https://kilden.com/forestilling/fra-krakk-til-kamp/"   # eller den eksakte billettlenken din
 
 poster_landscape_url: "https://.../plakat-liggende.pdf"
 poster_portrait_url: "https://.../plakat-staende.pdf"
